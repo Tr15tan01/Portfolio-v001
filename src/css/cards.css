@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.card-btn {
+  background-color: white;
+  border: 1px solid #cccccc;
+  color: #696969;
+  padding: 0.5rem;
+  text-transform: lowercase;
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.card-btn:hover {
+  cursor: pointer;
+  color: white;
+  background-color: dodgerblue;
+}
+/* .btn--block {
+  display: block;
+  width: 100%;
+} */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.card-tile {
+  display: flex;
+  flex: 20%;
+  padding: 1rem;
+}
+@media (min-width: 40rem) {
+  .card-tile {
+    width: 50%;
+  }
+}
+@media (min-width: 56rem) {
+  .ccard-tile {
+    width: 33.3333%;
+  }
+}
+.card {
+  background-color: white;
+  border-radius: .3rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: .2s;
+}
+.card:hover > .card-image {
+  filter: contrast(100%);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.card:hover {
+/*   transform: scale(1.01); */
+  cursor: pointer;
+}
+
+.card-content {
+  display: flex;
+  flex: 20%;
+  flex-direction: column;
+  padding: 1rem;
+}
+.card-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  filter: contrast(110%);
+  overflow: hidden;
+  position: relative;
+  transition: transform .2s;
+}
+.card-image::before {
+  content: "";
+  display: block;
+  padding-top: 56.25%;
+}
+@media (min-width: 40rem) {
+  .card-image::before {
+    padding-top: 66.6%;
+  }
+}
+.--flowers {
+  background-image: url(https://unsplash.it/800/600?image=82);
+}
+.--river {
+  background-image: url(https://unsplash.it/800/600?image=11);
+}
+.--record {
+  background-image: url(https://unsplash.it/800/600?image=39);
+}
+.--fence {
+  background-image: url(https://unsplash.it/800/600?image=59);
+}
+.card-title {
+  color: #696969;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.card-text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}

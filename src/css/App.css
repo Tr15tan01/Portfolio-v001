@@ -16,11 +16,6 @@ html {
 	scroll-behavior: smooth;
 }
 
-h1 {
-	margin: 0;
-	padding: 0;
-}
-
 body {
 	background-color: whitesmoke;
 }
@@ -28,13 +23,10 @@ body {
 section {
 	height: 100vh;
 	/* padding: 36px 48px 0; */
-	margin: 0;
 }
 
 .green {
 	background-color: yellowgreen;
-	width: var(--full-width);
-	height: var(--full-height);
 }
 
 .blue {
@@ -57,7 +49,6 @@ section {
 	display: block;
 	transition: top 0.3s;
 	z-index: 99;
-	box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.3);
 }
 
 .navbar a {
@@ -72,8 +63,7 @@ section {
 
 .navbar a:hover {
 	cursor: pointer;
-	background-color: #ff9966;
-	transition: .3s;
+	background-color: goldenrod;
 }
 
 /* bg animation */
@@ -124,14 +114,14 @@ section {
   width: 100%;
   height: 60%;
 }
-/* 
+
 .projects-container {
 display: flex;
-padding: 2px;
+padding: 24px;
 align-items: center;
 flex-wrap: wrap;
 justify-content: center;
-} */
+}
 
 .footer {
 	background-color: black;
