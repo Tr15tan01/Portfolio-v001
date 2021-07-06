@@ -6,7 +6,7 @@ function Mainpage(props) {
     <section className="white" id="mainpage">
     <div className="banner">
     <video autoPlay muted loop id="myVideo">
-  <source src="Videos/vid.mp4" type="video/mp4" />
+  <source src={`${process.env.PUBLIC_URL}/videos/vid.mp4`} type="video/mp4" />
   Your browser does not support HTML5 video.
 </video>
 
