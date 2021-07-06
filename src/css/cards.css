@@ -52,7 +52,7 @@ img {
   display: flex;
   padding: 1rem;
 }
-@media (min-width: 56rem) {
+@media (min-width: 36rem) {
   .card-tile {
     width: 50%;
   }
