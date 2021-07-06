@@ -3,12 +3,19 @@
 *::after {
   box-sizing: border-box;
 }
-
-a {
-    text-decoration: none;
-
+html {
+  background-color: #f0f0f0;
 }
-
+body {
+  color: #999999;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  padding: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 img {
   height: auto;
   max-width: 100%;
@@ -43,22 +50,17 @@ img {
 }
 .card-tile {
   display: flex;
-  flex: 20%;
   padding: 1rem;
 }
-@media (min-width: 40rem) {
+@media (min-width: 56rem) {
   .card-tile {
     width: 50%;
   }
 }
-@media (min-width: 56rem) {
-  .ccard-tile {
-    width: 33.3333%;
-  }
-}
+
 .card {
   background-color: white;
-  border-radius: .3rem;
+  border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
@@ -78,7 +80,7 @@ img {
 
 .card-content {
   display: flex;
-  flex: 20%;
+  flex: 1 1 auto;
   flex-direction: column;
   padding: 1rem;
 }

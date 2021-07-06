@@ -5,20 +5,17 @@ function Mainpage(props) {
   return (
     <section className="white" id="mainpage">
     <div className="banner">
-    <div className="circle"></div>
-<div className="dashed-circle"><div className="dashed-circle-sm"><div className="dashed-circle-xs"></div></div></div>
-<div className="circle-l"></div>
-<div className="line1"></div>
-<div className="line2"></div>
-<div className="line3"></div>
-<div className="line4"></div>
-<div className="rectangle"></div>
-<div className="rectangle1"></div>
-<div className="shower">
-  <h1>[Welcome To My Page]</h1>
+    <video autoPlay muted loop id="myVideo">
+  <source src="Videos/vid.mp4" type="video/mp4" />
+  Your browser does not support HTML5 video.
+</video>
+
+<div className="content">
+  <h1>Hello and Welcome to my page</h1>
   <h2>I am Tristan Varamashvili</h2>
-  
+  <p>I am Javascript Programmer and Web Developer.</p>
 </div>
+
     </div>
     </section>
   )

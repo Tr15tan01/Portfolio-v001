@@ -23,6 +23,7 @@ h1 {
 
 body {
 	background-color: whitesmoke;
+	overflow-x: hidden;
 }
 
 section {
@@ -42,7 +43,7 @@ section {
 }
 
 .red {
-  background-color: rgb(199, 66, 148);
+  background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 .white {

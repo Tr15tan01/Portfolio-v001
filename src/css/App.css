@@ -18,6 +18,7 @@ html {
 
 body {
 	background-color: whitesmoke;
+	overflow: hidden;
 }
 
 section {
@@ -34,11 +35,12 @@ section {
 }
 
 .red {
-  background-color: rgb(199, 66, 148);
+	background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 .white {
 	background-color: 'white';
+	overflow: hidden;
 }
 
 .navbar {
