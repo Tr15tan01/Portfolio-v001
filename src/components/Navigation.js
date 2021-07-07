@@ -1,5 +1,5 @@
 import React from 'react'
-import './js/navbar-scroll.js'
+import '../js/navbar-scroll.js'
 
 function Navigation() {
     return(          

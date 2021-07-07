@@ -1,7 +1,7 @@
 import React from 'react';
 //import {Link} from 'react-router-dom'
 import Thumbnail from './Thumbnail';
-import './css/cards.css';
+import '../css/cards.css';
 
 class Projects extends React.Component {
 	state = {

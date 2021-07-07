@@ -51,12 +51,20 @@ img {
 .card-tile {
   display: flex;
   padding: 1rem;
+  width: 25%;
 }
-@media (min-width: 36rem) {
+
+@media only screen and (max-width: 600px) {
+  /* place here CSS for when the screen is more than 1000px wide */
   .card-tile {
-    width: 50%;
+    width: 100%;
   }
 }
+/* @media (min-width: 720px) {
+  .card-tile {
+    width: 25%;
+  }
+} */
 
 .card {
   background-color: white;

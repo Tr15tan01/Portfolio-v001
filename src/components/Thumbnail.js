@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './App.css';
-import './css/cards.css'
+import '../css/cards.css'
  
 function Thumbnail(props) {
   
