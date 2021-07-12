@@ -6,16 +6,6 @@ import '../css/cards.css'
 function Thumbnail(props) {
   
   return (
-    // <div className="project">
-    //   <Link to={props.link}>
-    //     <div className="project-image">
-    //       <img src={props.image} alt=""/>
-    //     </div>
-    //     <div className="project-title">{props.title}</div>
-    //     <div className="project-category">{props.category}</div>
-    //         </Link>
-    // </div>
-
 
   <div className="card-tile">
     <div className="card">

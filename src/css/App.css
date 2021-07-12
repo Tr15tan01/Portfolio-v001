@@ -30,6 +30,7 @@ body {
 	margin: 0;
 	padding: 0 !important; 
 	background-color: whitesmoke;
+	color: white;
 	overflow-x: hidden;
 }
 
@@ -40,7 +41,7 @@ section {
 }
 
 .green {
-	background-color: yellowgreen;
+	background-image: linear-gradient(to right, #DC2424, #962596);
 	width: var(--full-width);
 	height: var(--full-height);
 }
@@ -50,7 +51,7 @@ section {
 }
 
 .red {
-  background-image: linear-gradient(to bottom right, #ddd6f3, #fff);
+  background-image: linear-gradient(to right, #DAE2F8, #D6A4A4);
   width: 100%;
   height: auto; 
 }
@@ -60,7 +61,7 @@ section {
 }
 
 .navbar {
-	background-color: #660066;
+	background-image: linear-gradient(to right, #33001b, #dc2430);
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -89,43 +90,22 @@ section {
 
 /* bg animation */
 .animation-container {
-	background-image: linear-gradient(to bottom right, rgb(75, 8, 58), rgb(100, 9, 9));
+	background-image: linear-gradient(to bottom right, #ff0084, #33001b);
 	width: var(--full-width);
-	height: var(--full-height);
 }
 
-
-
-/* .project {
-	width: 200px;
-  height: 200px;
-  padding: 12px;
-	border-radius: var(--border-s);
-  background-color: var(--main-color);
-  color: #fff;
-  margin: auto;
-}
-
-.project a {
-  color: #fff;
-}
-
-.project-image img{
-  border-radius: var(--border-s);
-  width: 100%;
-  height: 60%;
-} */
-/* 
-.projects-container {
-display: flex;
-padding: 2px;
-align-items: center;
-flex-wrap: wrap;
-justify-content: center;
-} */
 
 .footer {
 	background-color: black;
 	height: 60vh;
 	padding: 36px 48px 0;
+}
+
+.padded {
+	padding: 36px;
+}
+
+.centered {
+	margin: auto;
+	text-align:center;
 }

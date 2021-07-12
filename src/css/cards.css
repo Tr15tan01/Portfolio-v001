@@ -46,12 +46,13 @@ img {
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 24px 12px;
 }
 .card-tile {
   display: flex;
   padding: 1rem;
   width: 25%;
+  color: gray;
 }
 
 @media only screen and (max-width: 600px) {
@@ -69,7 +70,7 @@ img {
 .card {
   background-color: white;
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.6);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -113,11 +114,12 @@ img {
     padding-top: 66.6%;
   }
 }
-.--flowers {
-  background-image: url(https://unsplash.it/800/600?image=82);
+
+.--vocabulary {
+  background-image: url(../media/vocabulary.jpg);
 }
-.--river {
-  background-image: url(https://unsplash.it/800/600?image=11);
+.--cargadgets {
+  background-image: url(../media/cargadgets.jpg);
 }
 .--record {
   background-image: url(https://unsplash.it/800/600?image=39);

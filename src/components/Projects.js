@@ -7,12 +7,12 @@ class Projects extends React.Component {
 	state = {
 		cards : [
 			{
-				link  : '/twitte',
-				class : 'card-image --fence'
+				link  : 'https://vocabulary.ge',
+				class : 'card-image --vocabulary'
 			},
 			{
-				link  : '/twiter',
-				class : 'card-image --river'
+				link  : 'https://cargadgetnews.com',
+				class : 'card-image --cargadgets'
 			},
 			{
 				link  : '/twter',
@@ -20,14 +20,14 @@ class Projects extends React.Component {
 			},
 			{
 				link  : '/itter',
-				class : 'card-image --flowers'
+				class : 'card-image --fence'
 			}
 		]
 	};
 	render() {
 		return (
 			<section className="red" id="projects">
-				<h1>Projects</h1>
+				<h1 className="padded centered">Projects I have undertaken</h1>
 				<div className="cards">
                     {this.state.cards.map(card => <Thumbnail key={card.link} link={card.link} class={card.class} />)}
 

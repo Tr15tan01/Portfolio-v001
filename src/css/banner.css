@@ -29,11 +29,13 @@
 
   @media only screen and (max-width: 600px) {
 	#myVideo {
-		position: absolute;
-		left: -100px;
+		position: relative;
+		overflow-x: hidden;
+		/* left: -100px; */
 		bottom: 0;
-		min-width: 100%; 
-		min-height: 100%;
+		width: 100%; 
+		min-height: 100vh;
+		object-fit: cover;
 	  }
 
   }
