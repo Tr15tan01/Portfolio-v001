@@ -1,3 +1,4 @@
+
 const mouseMove = (event) => {
 	let y = event.clientY;
 	if (y < 100) {
@@ -9,3 +10,5 @@ const mouseMove = (event) => {
 };
 
 export default mouseMove;
+
+window.addEventListener('mousemove', mouseMove)

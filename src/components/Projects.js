@@ -20,7 +20,7 @@ class Projects extends React.Component {
 			},
 			{
 				link  : '/itter',
-				class : 'card-image --fence'
+				class : 'card-image --flowers'
 			}
 		]
 	};

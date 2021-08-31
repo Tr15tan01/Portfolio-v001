@@ -19,6 +19,7 @@ import JavascriptArticle from './components/Articles/JavascriptArticle';
 // import Footer from './components/Footer.jsx';
 
 import Home from './components/Home'
+import mouseMove from './js/mouseMove.js';
 import Linker from './components/Linker'
 
 import './css/App.css';

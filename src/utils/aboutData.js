@@ -1,3 +1,5 @@
+import React from 'react';
+
 import { FaHtml5, FaJs, FaNodeJs, FaReact, FaCss3Alt, FaGithub } from 'react-icons/fa';
 import {DiMongodb, DiMysql} from 'react-icons/di';
 
