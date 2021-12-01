@@ -7,10 +7,10 @@ function Navigation() {
 
 		<div className="navbar" id="navbar">
 
-			<a href="#mainpage" className="item">
+			<a href="#mainpage">
 				Mainpage
 			</a>
-			<a href="#about" className="item">
+			<a href="#about">
 				About
 			</a>
 			<a href="#projects" className="item">

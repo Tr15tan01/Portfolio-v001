@@ -23,6 +23,7 @@ import Linker from './components/Linker'
 
 import './css/App.css';
 import './js/navbar-scroll.js';
+import './js/mouseMove.js'
 
 function App() {
 	return (

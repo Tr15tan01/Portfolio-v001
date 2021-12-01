@@ -62,21 +62,21 @@ section {
 }
 
 .navbar {
-	background-image: linear-gradient(to right, #33001b, #dc2430);
+	background-image: linear-gradient(to right, #36031fc5, #c21521);
 	position: fixed;
 	top: 0;
 	width: 100%;
 	display: block;
 	transition: top 0.3s;
 	z-index: 99;
-	box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.3);
+	box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.6);
 	margin: auto;
 }
 
 .navbar a {
 	float: left;
 	display: block;
-	color: #f2f2f2;
+	/* color: #f2f2f2; */
 	text-align: center;
 	padding: 15px 36px;
 	text-decoration: none;
@@ -85,7 +85,7 @@ section {
 
 .navbar a:hover {
 	cursor: pointer;
-	background-color: #ff9966;
+background-color: #33001b;
 	transition: .3s;
 }
 

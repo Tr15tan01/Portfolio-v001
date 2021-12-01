@@ -1,25 +1,25 @@
 import React from 'react';
-// import Firebase from 'firebase/app';
+import Firebase from 'firebase/app';
 import 'firebase/database';
 import '../css/Articles.css';
-// import firebaseConfig from '../utils/config';
+import firebaseConfig from '../utils/config';
 
 class Modal extends React.Component {
 	// state = {};
 
-	// componentDidMount () {
-	// 	try {
-	// 		Firebase.initializeApp(firebaseConfig);
+	componentDidMount () {
+		try {
+			Firebase.initializeApp(firebaseConfig);
 
-	// 		Firebase.database().ref('users').once('value', (snap) => {
-	// 			console.log(snap.val());
-	// 		});
-	// 	} catch (err) {
-	// 		err && console.log(err.message);
-	// 	}
-	// }
+			Firebase.database().ref('users').once('value', (snap) => {
+				console.log(snap.val());
+			});
+		} catch (err) {
+			err && console.log(err.message);
+		}
+	}
 
-	render() {
+	render () {
 		return (
 			<div id="myModal" className={this.props.defineClasses()}>
 				<div className="modal-content">
