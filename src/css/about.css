@@ -7,7 +7,7 @@
 	height: auto;
 }
 
-.cards-container {
+/* .cards-container {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
@@ -21,7 +21,24 @@
 	margin: 9px;
 	background-color: white;
 	border-radius: var(--border-s);
+} */
+
+.cards-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	width: 100%;
+	padding: 24px;
 }
+
+.item-card {
+	box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.8);
+	transition: 0.3s;
+	flex: 15%;
+	margin: 9px;
+	background-color: white;
+	border-radius: var(--border-s);
+}
+
 
 .item-card:hover {
 	cursor: pointer;
@@ -34,7 +51,9 @@
 
 @media only screen and (max-width: 800px) {
 	.cards-container {
+		display: grid;
+		grid-template-columns: auto auto;
 		width: 100%;
-		flex-direction: column;
+		padding: 4px;
 	}
 }
