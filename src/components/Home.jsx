@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Navigation from './Navigation.js';
-import Projects from './Projects.js';
+import Navigation from './Navigation.jsx';
+import Projects from './Projects.jsx';
 import Articles from './Articles.jsx';
 import Mainpage from './Mainpage.jsx';
 import About from './About.jsx';

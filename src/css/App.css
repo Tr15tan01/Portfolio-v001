@@ -52,7 +52,7 @@ section {
 }
 
 .red {
-  background-image: linear-gradient(to right, #DAE2F8, #D6A4A4);
+  background-image: linear-gradient(to right, #7F00FF, #E100FF);
   width: 100%;
   height: auto; 
 }

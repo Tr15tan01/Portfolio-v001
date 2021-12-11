@@ -22,9 +22,9 @@ img {
   vertical-align: middle;
 }
 .card-btn {
-  background-color: white;
+  background-color: dodgerblue;
   border: 1px solid #cccccc;
-  color: #696969;
+  color: white;
   padding: 0.5rem;
   text-transform: lowercase;
   display: block;
@@ -32,6 +32,14 @@ img {
   border-radius: 3px;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: blueviolet;
+}
 .card-btn:hover {
   cursor: pointer;
   color: white;
@@ -41,17 +49,25 @@ img {
   display: block;
   width: 100%;
 } */
-.cards {
+/* .cards {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 24px 12px;
+} */
+
+.cards {
+  display: grid;
+	grid-template-columns: auto auto auto auto;
+	width: 100%;
+	padding: 24px;
 }
+
 .card-tile {
   display: flex;
   padding: 1rem;
-  width: 25%;
+  width: 100%;
   color: gray;
 }
 
@@ -121,11 +137,11 @@ img {
 .--cargadgets {
   background-image: url(../media/cargadgets.jpg);
 }
-.--record {
-  background-image: url(https://unsplash.it/800/600?image=39);
+.--weather {
+  background-image: url(../media/weather.jpg);
 }
-.--fence {
-  background-image: url(https://unsplash.it/800/600?image=59);
+.--chatbot {
+  background-image: url(../media/chatbot.jpg);
 }
 .card-title {
   color: #696969;

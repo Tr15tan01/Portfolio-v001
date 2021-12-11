@@ -12,8 +12,8 @@ function Mainpage(props) {
 
         <div className="content">
           <h1>Hello and Welcome to my page</h1>
-          <h2>I am Tristan Varamashvili (TR15TAN01)</h2>
-          <p>I am JavaScript Programmer and Web Developer.</p>
+          <h2>I am Tristan Varamashvili </h2>
+          <h3>I am JavaScript Programmer and Web Developer.</h3>
         </div>
 
       </div>
