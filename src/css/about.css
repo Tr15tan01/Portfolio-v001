@@ -53,7 +53,7 @@
 	.cards-container {
 		display: grid;
 		grid-template-columns: auto auto;
-		width: 100%;
+		width: 96%;
 		padding: 4px;
 	}
 }

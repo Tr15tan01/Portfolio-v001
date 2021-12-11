@@ -3,9 +3,9 @@
 *::after {
   box-sizing: border-box;
 }
-html {
+/* html {
   background-color: #f0f0f0;
-}
+} */
 body {
   color: #999999;
   font-family: Arial, sans-serif;
@@ -71,10 +71,17 @@ a:hover {
   color: gray;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   /* place here CSS for when the screen is more than 1000px wide */
   .card-tile {
     width: 100%;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    padding: 24px;
   }
 }
 /* @media (min-width: 720px) {

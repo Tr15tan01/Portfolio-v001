@@ -24,8 +24,16 @@ class Articles extends React.Component {
 	render() {
 		return (
 			<section className="green" id="articles">
-
-				<div className="container">
+				<div>
+					<h2 className="padded centered">What is JavaScript</h2>
+					<p className="padded  middle-fonted">
+						So, what is JavaScript and why do we need it? Javascript is a scripting language that is needed
+						to add interactivity to web pages. First, let start from the beginning. Who invented Javascript.{' '}
+						{/* <a href="https://google.com"> Read more</a> */}
+						<button onClick={this.showArticle}>{this.state.showButtonText}</button>
+					</p>
+				</div>
+				<div className="">
 					{this.state.articles.map((article) => (
 						<div key={article.headLine}>
 							<h2 >{article.headLine}</h2>

@@ -6,7 +6,7 @@ import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa';
 function Footer(props) {
   return (
     <section className="footer" id="footer">
-      <div class="footer-grid">
+      <div className="footer-grid">
         <div className="footer-item">
           <ul>
             <li><Link to="#">Contact</Link></li>
@@ -23,7 +23,7 @@ function Footer(props) {
         </div>
         <div className="footer-item">
           <ul>
-            <li><Link to="#"><FaGithub size="36" />GitHub</Link></li>
+            <li><Link to="#"><FaGithub size="36" /> </Link></li>
             <li><Link to="#"><FaFacebook size="36" /></Link></li>
             <li><Link to="#"><FaLinkedin size="36" /></Link></li>
 

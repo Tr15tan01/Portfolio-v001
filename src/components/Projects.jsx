@@ -17,32 +17,32 @@ class Projects extends React.Component {
 				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
 			},
 			{
-				link: '/twter',
+				link: '/twter1',
 				class: 'card-image --weather',
 				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
 			},
 			{
-				link: '/itter',
+				link: '/itter2',
 				class: 'card-image --chatbot',
 				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
 			},
 			{
-				link: '/itter',
+				link: '/itter3',
 				class: 'card-image --chatbot',
 				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
 			},
 			{
-				link: '/twter',
+				link: '/twter4',
 				class: 'card-image --weather',
 				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
 			},
 			{
-				link: '/itter',
+				link: '/itter5',
 				class: 'card-image --chatbot',
 				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
 			},
 			{
-				link: '/itter',
+				link: '/itter6',
 				class: 'card-image --chatbot',
 				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
 			}

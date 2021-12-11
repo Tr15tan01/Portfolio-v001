@@ -98,7 +98,7 @@ background-color: #33001b;
 
 .footer {
 	background-color: black;
-	height: 60vh;
+	height: auto;
 	padding: 36px 48px 0;
 }
 
@@ -114,3 +114,14 @@ background-color: #33001b;
 .middle-fonted {
 	font-size: 21px;
 }
+
+@media only screen and (max-width: 800px) {
+	/* place here CSS for when the screen is more than 1000px wide */
+	.card-tile {
+	  width: 100%;
+	}
+
+	.navbar {
+		display: none;
+	}
+}  
