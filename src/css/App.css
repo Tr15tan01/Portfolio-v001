@@ -43,8 +43,9 @@ section {
 .green {
 	background-image: linear-gradient(to right, #DC2424, #962596);
 	width: var(--full-width);
-	/* min-height: var(--full-height); */
-	min-height: auto;
+	min-height: var(--full-height);
+	height: auto;
+
 }
 
 .blue {
