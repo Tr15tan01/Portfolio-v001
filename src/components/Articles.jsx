@@ -31,8 +31,8 @@ class Articles extends React.Component {
 							<h2 >{article.headLine}</h2>
 							<h3>{article.subHeadLine}</h3>
 							<p>{article.content}</p>
-							<button onClick={this.showArticle}>Read More</button>
-							<Link to="/javascriptarticle">Linker goes here</Link>
+							{/* <button onClick={this.showArticle}>Read More</button> */}
+							<Link className="linker" to="/javascriptarticle">Read More</Link>
 							<div>
 								<Modal
 									defineClasses={this.defineClasses}

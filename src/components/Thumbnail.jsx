@@ -13,7 +13,7 @@ function Thumbnail(props) {
         <div className={props.class}></div>
         <div className="card-content">
           <div className="card-title">{props.title}</div>
-          <p className="card-text">{props.text}</p>
+          <p className="card-text">Technologies: {props.text}</p>
           <a href={props.link} rel="noreferrer" target="_blank"><button className="card-btn"> Go To Project</button></a>
 
         </div>

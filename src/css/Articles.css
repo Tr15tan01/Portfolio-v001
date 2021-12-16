@@ -8,6 +8,8 @@
 	transition: 1s;
  }
 
+ 
+
  .modal {
 	display: none;
 	position: static; /* Stay in place */
@@ -84,4 +86,12 @@
 	color: white;
 	position: absolute;
 	bottom: 0;
+  }
+
+  .linker {
+	  color: white;
+	  padding: 9px 12px;
+	  background-color: dodgerblue;
+	  border: none;
+      border-radius: var(--border-s);
   }

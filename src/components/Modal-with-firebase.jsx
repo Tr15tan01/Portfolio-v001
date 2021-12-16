@@ -4,10 +4,10 @@ import 'firebase/database';
 import '../css/Articles.css';
 import firebaseConfig from '../utils/config';
 
-class Modal extends React.Component {
+class ModalBase extends React.Component {
 	// state = {};
 
-	componentDidMount () {
+	componentDidMount() {
 		try {
 			Firebase.initializeApp(firebaseConfig);
 
@@ -19,7 +19,7 @@ class Modal extends React.Component {
 		}
 	}
 
-	render () {
+	render() {
 		return (
 			<div id="myModal" className={this.props.defineClasses()}>
 				<div className="modal-content">
@@ -44,4 +44,4 @@ class Modal extends React.Component {
 		);
 	}
 }
-export default Modal;
+export default ModalBase;

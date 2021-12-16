@@ -12,7 +12,7 @@ class About extends React.Component {
 	render() {
 		return (
 			<section className="animation-container" id="about">
-				<h1 className="padded centered">List of Languages, technologies and Frameworks I am working with:</h1>
+				<h1 className="padded centered">List of Languages, technologies and Libraries I am working with:</h1>
 				<div className="cards-container">
 					{this.state.items.map((item) => (
 						<div key={item.color} className="item-card">

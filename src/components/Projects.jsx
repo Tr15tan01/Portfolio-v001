@@ -9,7 +9,7 @@ class Projects extends React.Component {
 			{
 				link: 'https://vocabulary.ge',
 				class: 'card-image --vocabulary',
-				text: 'test text here, and more text txt sthere some rubbish nla nla nla, test text here, and more text txt sthere some rubbish nla nla nla '
+				text: 'Technologies used: HTML, CSS, Javascript, PHP, MySQL'
 			},
 			{
 				link: 'https://cargadgetnews.com',
@@ -28,17 +28,17 @@ class Projects extends React.Component {
 			},
 			{
 				link: '/itter3',
-				class: 'card-image --chatbot',
+				class: 'card-image --chat',
 				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
 			},
 			{
 				link: '/twter4',
-				class: 'card-image --weather',
+				class: 'card-image --shop',
 				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
 			},
 			{
 				link: '/itter5',
-				class: 'card-image --chatbot',
+				class: 'card-image --quiz',
 				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
 			},
 			{

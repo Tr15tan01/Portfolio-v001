@@ -30,6 +30,7 @@ img {
   display: block;
   width: 100%;
   border-radius: 3px;
+  text-transform: uppercase;
 }
 
 a {
@@ -92,6 +93,7 @@ a:hover {
 
 .card {
   background-color: white;
+  width: 100%;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.6);
   display: flex;
@@ -136,6 +138,16 @@ a:hover {
   .card-image::before {
     padding-top: 66.6%;
   }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    padding: 12px;
+  }
 }
 
 .--vocabulary {
@@ -149,6 +161,15 @@ a:hover {
 }
 .--chatbot {
   background-image: url(../media/chatbot.jpg);
+}
+.--chat {
+  background-image: url(../media/chat.jpg);
+}
+.--shop {
+  background-image: url(../media/shop.jpg);
+}
+.--quiz {
+  background-image: url(../media/quiz.jpg);
 }
 .card-title {
   color: #696969;

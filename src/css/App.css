@@ -43,8 +43,8 @@ section {
 .green {
 	background-image: linear-gradient(to right, #DC2424, #962596);
 	width: var(--full-width);
-	min-height: var(--full-height);
-	/* height: auto; */
+	/* min-height: var(--full-height); */
+	min-height: auto;
 }
 
 .blue {
@@ -99,7 +99,8 @@ background-color: #33001b;
 .footer {
 	background-color: black;
 	height: auto;
-	padding: 36px 48px 0;
+	padding: 36px 48px;
+	text-align: center;
 }
 
 .padded {
