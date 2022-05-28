@@ -7,7 +7,7 @@ const articles = [
 	},
 	{
 		headLine: 'JavaScript Libraries vs. Frameworks',
-		subHeadLine: 'What’s the Difference: ',
+		subHeadLine: "What’s the Difference: ",
 		content:
 			'A question I hear quite often is “What’s the difference between JavaScript libraries and frameworks?” That’s a good question, and there has been a lot of discussion on it online. What Are JavaScript Libraries? Generally, a JS library is a reusable piece of code that oftentimes has one primary use case. A library can consist of several functions/objects/methods, depending on the language. Your application can “link” to a library to allow you access to that functionality. What Are JavaScript Frameworks? On the other hand, a JS framework has more control of your app. It helps direct you on the architecture and the project that follows. Frameworks consist of multiple libraries and they provide you with hooks and callbacks, so you can continue to build upon them.'
 	},

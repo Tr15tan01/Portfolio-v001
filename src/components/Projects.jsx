@@ -14,22 +14,22 @@ class Projects extends React.Component {
 			{
 				link: 'https://cargadgetnews.com',
 				class: 'card-image --cargadgets',
-				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
+				text: 'Blog about car gadgets: Technologies used: Node.js, express, MongoDb, Javascript, Ejs'
 			},
 			{
-				link: '/twter1',
+				link: 'https://weather-city-now.herokuapp.com/',
 				class: 'card-image --weather',
-				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
+				text: 'Weather App: Technologies used: Node.js, express, Javascript, CSS, Ejs, Weather API'
 			},
 			{
-				link: '/itter2',
+				link: 'https://chatbot-v006.herokuapp.com/2',
 				class: 'card-image --chatbot',
-				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
+				text: 'Simple ChatBot: Technologies used: Node.js, express, web sockets'
 			},
 			{
-				link: '/itter3',
+				link: 'https://chat-v003.herokuapp.com/',
 				class: 'card-image --chat',
-				text: 'test text here, and more text txt sthere some rubbish nla nla nla'
+				text: 'Simple Chat App: Technologies used: Node.js, express, web sockets'
 			},
 			{
 				link: '/twter4',
