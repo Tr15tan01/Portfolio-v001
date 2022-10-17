@@ -1,6 +1,6 @@
 # Personal Professional Portfolio Page
 
-This project is under construction [See Live App](https://github.com/Tr15tan01/Portfolio-v001.git).
+This project is under construction [See Live App](https://tr15tan01.github.io/Portfolio-v001/).
 
 ## Project is in testing phase
 
