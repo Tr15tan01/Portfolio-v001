@@ -26,10 +26,9 @@ class About extends React.Component {
 					))}
 				</div>
 				<h1 className="padded centered">Some Info About Me</h1>
-				<p className="padded centered middle-fonted">I am web developer and web programmer.
-					Tech-savvy Full Stack Web Developer proficient in fundamental front-end languages
-					and server-side languages. In-depth knowledge of Oracle, MySQL and MongoDB. Analytical and
-					precise professional with [Number] years of hands-on experience taking charge of front and
+				<p className="padded centered middle-fonted">Tech-savvy Full Stack Web Developer proficient in fundamental front-end languages
+					and server-side languages. In-depth knowledge of MySQL and MongoDB. Analytical and
+					precise professional with 6 years of hands-on experience taking charge of front and
 					back-end web development. Skillful creating servers and databases for functionality
 					and designing and developing APIs. Hardworking collaborator with track record of superior results.
 					This page is made with React.js, and uses it's latest features.</p>

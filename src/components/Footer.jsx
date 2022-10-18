@@ -14,10 +14,10 @@ function Footer(props) {
 
       <div className="footer-item">
         <ul>
-          <li><Link to="#"><FaGithub size="36" /> </Link></li>
-          <li><Link to="#"><FaFacebook size="36" /></Link></li>
-          <li><Link to="#"><FaLinkedin size="36" /></Link></li>
-          <li><Link to="#"><FaMailBulk size="36" /></Link></li>
+          <li><Link to="https://github.com/Tr15tan01"><FaGithub size="36" /> </Link></li>
+          <li><Link to="https://www.facebook.com/tristan.varamashvili"><FaFacebook size="36" /></Link></li>
+          <li><Link to="https://www.linkedin.com/in/tristan-varamashvili-56005344/"><FaLinkedin size="36" /></Link></li>
+          <li><Link to="mailto:t.varamashvili@gmail.com"><FaMailBulk size="36" /></Link></li>
         </ul>
       </div>
       <div className="copy"> Copyright &copy; 2020 - {currYear}</div>
