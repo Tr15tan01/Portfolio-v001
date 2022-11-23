@@ -46,4 +46,16 @@
         width: 100%;
         padding: 24px;
     } */
+    .footer-item {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        min-height: auto; 
+        margin: auto;
+       }
+       .footer-item li {
+        padding: 12px;
+        display: inline-block;
+    }
+
   }

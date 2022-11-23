@@ -19,9 +19,6 @@ function App() {
 	return (
 		<Router>
 			<div>
-				{/* <Route exact path="/" component={Projects} />
-        <Route path="/articles" component={Articles} />
-        <Route path="/about" component={About} />  */}
 				<Switch>
 					<Route exact path="/Portfolio-v001">
 						<Home />
@@ -32,12 +29,7 @@ function App() {
 					<Route path="/javascriptarticle">
 						<JavascriptArticle />
 					</Route>
-					{/* <Navigation />
-					<Mainpage />
-					<About />
-					<Projects />
-					<Articles />
-					<Footer /> */}
+
 				</Switch>
 			</div>
 		</Router>
