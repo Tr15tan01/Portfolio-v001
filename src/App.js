@@ -6,7 +6,7 @@ import {
 	Switch,
 	Route
 } from "react-router-dom";
-import JavascriptArticle from './components/Articles/JavascriptArticle';
+import JavascriptArticle from './components/JavascriptArticle';
 
 import Home from './components/Home'
 import Linker from './components/Linker'
@@ -26,7 +26,7 @@ function App() {
 					<Route path="/linker">
 						<Linker />
 					</Route>
-					<Route path="/javascriptarticle:id">
+					<Route path="/:id">
 						<JavascriptArticle />
 					</Route>
 

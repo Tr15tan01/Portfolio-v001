@@ -15,9 +15,9 @@ const Articles =() =>{
 						<div key={article.headLine}>
 							<h2 >{article.headLine}</h2>
 							<h3>{article.subHeadLine}</h3>
-							<p>{article.content}</p>
-							{/* <button onClick={this.showArticle}>Read More</button> */}
-							<Link className="linker" to={"/javascriptarticle:" + article.link}>Read More</Link>
+							<p>{article.content.slice(0,333)}</p>
+							<Link className="linker" to={article.link}>Read More</Link>
+							<hr />
 						</div>
 					))}
 				</div>

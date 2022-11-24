@@ -1,3 +1,21 @@
+.article {
+	background-image: linear-gradient(to right, #dc2424, #962596);
+	width: var(--full-width);
+	min-height: var(--full-height);
+	padding: 33px;
+	/* height: auto; */
+	font-size: 18px;
+	padding: 12px;
+	margin-top: 48px;
+}
+
+hr {
+	margin-top: 36px;
+	width: 96%;
+	background-color: rgb(222, 73, 177);
+	opacity: .3;
+}
+
 .hidden {
 	display: none;
 	transition : 1s;

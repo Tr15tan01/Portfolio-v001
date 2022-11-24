@@ -1,9 +1,0 @@
-.article {
-	background-image: linear-gradient(to right, #dc2424, #962596);
-	width: var(--full-width);
-	min-height: var(--full-height);
-	padding: 33px;
-	/* height: auto; */
-	font-size: 18px;
-	padding: 12px;
-}
