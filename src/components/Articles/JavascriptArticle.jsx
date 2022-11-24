@@ -1,19 +1,12 @@
 import React from 'react';
 import './Article.css';
 import getArticles from '../../utils/Articles-list';
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import Navigation from '../Navigation';
 import Footer from '../Footer'
 
-class JavascriptArticle extends React.Component {
-	state = {
-		showComponent  : false,
-		showButtonText : 'Show Article',
-		subtitle       : "This article is about Javascript ant it's many uses",
-		articles       : getArticles()
-	};
-
-	render () {
+const JavascriptArticle =(props) => {
+console.log(props.match.params.id)
 		return (
 			<>
 			<Navigation />
@@ -24,6 +17,7 @@ class JavascriptArticle extends React.Component {
 						So, what is JavaScript and why do we need it? Javascript is a scripting language that is needed
 						to add interactivity to web pages. First, let start from the beginning. Who invented Javascript.
 					</p>
+					<p>props are </p>
 					<Link to="/Portfolio-v001">Homepage</Link>
 				</div>
 			</section>
@@ -31,6 +25,5 @@ class JavascriptArticle extends React.Component {
 			</>
 		);
 	}
-}
 
-export default JavascriptArticle;
+export default withRouter(JavascriptArticle);

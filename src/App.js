@@ -26,7 +26,7 @@ function App() {
 					<Route path="/linker">
 						<Linker />
 					</Route>
-					<Route path="/javascriptarticle">
+					<Route path="/javascriptarticle:id">
 						<JavascriptArticle />
 					</Route>
 
