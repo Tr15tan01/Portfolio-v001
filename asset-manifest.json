@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-v001/static/css/main.5be85def.css",
-    "main.js": "/Portfolio-v001/static/js/main.e9297549.js",
+    "main.css": "/Portfolio-v001/static/css/main.7c7437f0.css",
+    "main.js": "/Portfolio-v001/static/js/main.7027196b.js",
     "static/js/377.2bf5b29e.chunk.js": "/Portfolio-v001/static/js/377.2bf5b29e.chunk.js",
     "static/media/quiz.jpg": "/Portfolio-v001/static/media/quiz.0906315df305b72a38da.jpg",
     "static/media/vocabulary.jpg": "/Portfolio-v001/static/media/vocabulary.0b13fa8cddf76e5ad6af.jpg",
@@ -11,12 +11,12 @@
     "static/media/cargadgets.jpg": "/Portfolio-v001/static/media/cargadgets.34fa7131983102033f40.jpg",
     "static/media/weather.jpg": "/Portfolio-v001/static/media/weather.a9edd9126c1d4b3d3396.jpg",
     "index.html": "/Portfolio-v001/index.html",
-    "main.5be85def.css.map": "/Portfolio-v001/static/css/main.5be85def.css.map",
-    "main.e9297549.js.map": "/Portfolio-v001/static/js/main.e9297549.js.map",
+    "main.7c7437f0.css.map": "/Portfolio-v001/static/css/main.7c7437f0.css.map",
+    "main.7027196b.js.map": "/Portfolio-v001/static/js/main.7027196b.js.map",
     "377.2bf5b29e.chunk.js.map": "/Portfolio-v001/static/js/377.2bf5b29e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5be85def.css",
-    "static/js/main.e9297549.js"
+    "static/css/main.7c7437f0.css",
+    "static/js/main.7027196b.js"
   ]
 }
